@@ -16,6 +16,7 @@ The modelling to forecast the quantity of air fryers is executed in Python. As d
 As can be seen in Figure 1 1, the air fryer historical sales shows a strong seasonality and an increasing trend through years. Overall, throughout the given period, Philips air fryers sales data shows an upward trend interweaving with seasonal cycles that repeat within the year. The latest sales for 2021 are four times the average sales of 2016. The author notices that the growth in sales for the last three months of the given years seem to be the highest compared to the figures for other months of the year. The three outstanding peaks of Philips air fryer took place in October and November of years of 2017, 2019, and 2020.
 
 Moreover, in order to disprove the dummy assumptions of patterns perceived, the study conducts to decompose data set to check the trend or seasonality phenomenon. The decomposition of data splits data into trend and seasonal patterns which are shown in Figure 1 2 below:
+
 ![image](https://user-images.githubusercontent.com/69800336/134211059-9cd36ccc-9984-4c7f-893c-3392146b1658.png)
 
 As observed in Figure 1 2, the data set was decomposed in four parts: observed, trend, seasonal, and residual. It is apparent that air fryer sales witnessed an upward trend and strong seasonality.
