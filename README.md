@@ -11,6 +11,7 @@ I focus on the sale of Europe market given Europe has sold the greatest number o
 
 # Overview
 The modelling to forecast the quantity of air fryers is executed in Python. As discussed in chapter 3, different methods, including single one and hybrid one, are tested in order to find out which model has the best performance. Before the modelling, the first step is to look at the data plot of historical data, which is depicted in Figure 1 1: 
+
 ![image](https://user-images.githubusercontent.com/69800336/134210804-f1e58a23-ff9b-42fc-911c-c175e4e037e0.png)
 
 As can be seen in Figure 1 1, the air fryer historical sales shows a strong seasonality and an increasing trend through years. Overall, throughout the given period, Philips air fryers sales data shows an upward trend interweaving with seasonal cycles that repeat within the year. The latest sales for 2021 are four times the average sales of 2016. The author notices that the growth in sales for the last three months of the given years seem to be the highest compared to the figures for other months of the year. The three outstanding peaks of Philips air fryer took place in October and November of years of 2017, 2019, and 2020.
