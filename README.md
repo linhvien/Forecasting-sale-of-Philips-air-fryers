@@ -10,7 +10,7 @@ I apply time-series analysis and machine learning model to forecast the sale of 
 I focus on the sale of Europe market given Europe has sold the greatest number of air fryer, accounting for 35.5% of total global volume of Philips air fryers.
 
 # Overview
-The modelling to forecast the quantity of air fryers is executed in Python. As discussed in chapter 3, different methods, including single one and hybrid one, are tested in order to find out which model has the best performance. Before the modelling, the first step is to look at the data plot of historical data, which is depicted in Figure 1 1: 
+The modelling to forecast the quantity of air fryers is executed in Python. Different methods, including single one and hybrid one, are tested in order to find out which model has the best performance. Before the modelling, the first step is to look at the data plot of historical data, which is depicted in Figure 1 1: 
 
 ![image](https://user-images.githubusercontent.com/69800336/134210804-f1e58a23-ff9b-42fc-911c-c175e4e037e0.png)
 
