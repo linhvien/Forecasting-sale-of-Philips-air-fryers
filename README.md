@@ -10,13 +10,13 @@ I apply time-series analysis and machine learning model to forecast the sale of 
 I focus on the sale of Europe market given Europe has sold the greatest number of air fryer, accounting for 35.5% of total global volume of Philips air fryers.
 
 # Overview
-The modelling to forecast the quantity of air fryers is executed in Python. Different methods, including single one and hybrid one, are tested in order to find out which model has the best performance. Before the modelling, the first step is to look at the data plot of historical data, which is depicted in Figure 1 1: 
+The modelling to forecast the quantity of air fryers is executed in Python. Different methods, including single one and hybrid one, are tested in order to find out which model has the best performance. Before the modelling, the first step is to look at the data plot of historical data, which is depicted in Figure 1: 
 
 ![image](https://user-images.githubusercontent.com/69800336/134210804-f1e58a23-ff9b-42fc-911c-c175e4e037e0.png)
 
 As can be seen in Figure 1 1, the air fryer historical sales shows a strong seasonality and an increasing trend through years. Overall, throughout the given period, Philips air fryers sales data shows an upward trend interweaving with seasonal cycles that repeat within the year. The latest sales for 2021 are four times the average sales of 2016. The author notices that the growth in sales for the last three months of the given years seem to be the highest compared to the figures for other months of the year. The three outstanding peaks of Philips air fryer took place in October and November of years of 2017, 2019, and 2020.
 
-Moreover, in order to disprove the dummy assumptions of patterns perceived, the study conducts to decompose data set to check the trend or seasonality phenomenon. The decomposition of data splits data into trend and seasonal patterns which are shown in Figure 1 2 below:
+Moreover, in order to disprove the dummy assumptions of patterns perceived, the study conducts to decompose data set to check the trend or seasonality phenomenon. The decomposition of data splits data into trend and seasonal patterns which are shown in Figure 2 below:
 
 ![image](https://user-images.githubusercontent.com/69800336/134211059-9cd36ccc-9984-4c7f-893c-3392146b1658.png)
 
@@ -26,7 +26,7 @@ Preliminary analysis is executed to inspect features including the trend pattern
 
 ![image](https://user-images.githubusercontent.com/69800336/134211410-b230764e-8ca2-48d9-925f-1845b7664f94.png)
 
-Let’s plot the Partial Autocorrelation (PACF) and Autocorrelation (ACF) in the Figure 1 3 to test whether is a sign of heteroscedasticity. 
+Let’s plot the Partial Autocorrelation (PACF) and Autocorrelation (ACF) in the Figure 3 to test whether is a sign of heteroscedasticity. 
 
 ![image](https://user-images.githubusercontent.com/69800336/134211456-2c896995-d535-4574-8644-e0e240022ceb.png)
 ![image](https://user-images.githubusercontent.com/69800336/134211482-ed7b88c8-6605-427e-9fa6-277e52902576.png)
